@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <label for="FirstName">First Name</label>
+        <input type="text" name="Name" placeholder="John" id="FirstName" required>
+        <label for="LastName">Last Name</label>
+        <input type="text" name="Name" placeholder="Smith" id="LastName" required>
+        <br>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="MALE">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="FEMALE">
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other" value="OTHER">
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" name="login" id="email" required placeholder="your email">
+        <label for="Password">Password</label>
+        <input type="password" name="login" id="password" minlength="5" maxlength="10" required placeholder="your password">
+        <br>
+
+        <label for="Birthday">Birthday</label>
+        <select name="Month" id="month">
+            <option value="Month">Month</option>
+            <option value="JAN">JAN</option>
+            <option value="FEB">FEB</option>
+            <option value="MAR">MAR</option>
+        </select>
+        <select name="day" id="day">
+            <option value="Day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="4">3</option>
+        </select>
+        <select name="year" id="year">
+            <option value="Year">Year</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+        </select>
+
+        <br>
+
+        <label for="LastNAme">I agree with the terms and conditions</label>
+        <input type="checkbox" name="" id="agree" required>
+        <br>
+        <button>Submit</button>
+
+    </form>
+</body>
+
+</html>

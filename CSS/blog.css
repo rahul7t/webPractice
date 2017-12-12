@@ -1,0 +1,38 @@
+body{
+    /* display: table-cell;
+    
+    margin: 20px;
+    
+    font-family: "Source Sans Pro"; */
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    border: 20px solid #bdc3c7;
+    font-family: "Source Sans Pro";
+    padding: 20px;
+}
+
+.date{
+    text-transform: uppercase;
+    color: blue;
+    letter-spacing: 0.2rem;
+    
+}
+/* p{
+    margin: 20px;
+}*/
+h1{
+    font-size: 2.0rem;
+}
+
+.left{
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+hr{
+    border-top: 1px solid #8c8b8b;
+}
+
+.post{
+    margin-bottom: 20px;
+}
