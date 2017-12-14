@@ -1,0 +1,11 @@
+body{
+    background: url(https://images.unsplash.com/photo-1483383490964-8335c18b6666?auto=format&fit=crop&w=1934&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+    background-size : cover; 
+    background-position: center;
+    font-family: Lato;
+}
+
+#content{
+text-align: center;
+padding-top: 25%;
+}
